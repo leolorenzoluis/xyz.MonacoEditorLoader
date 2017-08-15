@@ -1,6 +1,6 @@
 # 🎉🎉🎉 Angular Monaco Editor Loader 🎉🎉🎉
-
-[![Build Status](https://travis-ci.org/leolorenzoluis/xyz.loadMonacoEditorLoader.svg?branch=master)](https://travis-ci.org/leolorenzoluis/xyz.loadMonacoEditorLoader)
+[![npm](https://img.shields.io/badge/awesome-∞-brightgreen.svg)](https://www.npmjs.com/package/@abc.xyz/angular-monaco-editor-loader)
+[![Build Status](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader.svg?branch=master)](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader)
 
 An easy to use Monaco Editor Loader Service for Angular 2 and 4! Just add `*loadMonacoEditor` in your HTML Element, and you don't have to worry about timing issues!
 
