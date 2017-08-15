@@ -19,16 +19,21 @@ npm i @abc.xyz/angular-monaco-editor-loader
 In your component's module or app module. Import the following:
 
 ```
-import { loadMonacoEditorLoaderModule, loadMonacoEditorLoaderService } from '@abc.xyz/angular-monaco-editor-loader';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { MonacoEditorLoaderModule, MonacoEditorLoaderService } from '@abc.xyz/angular-monaco-editor-loader';
+
+import { AppComponent } from './app.component';
+import { MonacoEditorComponent } from './monaco-editor/monaco-editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    loadMonacoEditorComponent /* Your custom component */
+    MonacoEditorComponent
   ],
   imports: [
     BrowserModule,
-    loadMonacoEditorLoaderModule <-- Insert This
+    MonacoEditorLoaderModule <-- Insert this>
   ],
   bootstrap: [AppComponent]
 })
@@ -51,7 +56,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './monaco-editor.component.html',
   styleUrls: ['./monaco-editor.component.css']
 })
-export class loadMonacoEditorComponent implements OnInit {
+export class MonacoEditorComponent implements OnInit {
 
   constructor() { }
 
