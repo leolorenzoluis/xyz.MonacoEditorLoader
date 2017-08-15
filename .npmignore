@@ -8,7 +8,7 @@ Thumbs.db
 .DS_Store
 
 # Ignored files
-sample
+demo
 config
 typings
 webpack.config.js
