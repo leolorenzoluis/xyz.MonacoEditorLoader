@@ -103,6 +103,13 @@ export class MonacoEditorComponent implements OnInit {
 
 And that's it! No `timeouts`! No `then`! It just goes with the correct flow in Angular!
 
+# Running the demo app
+Make sure you have **Angular CLI** installed!
+
+1. Clone this repository
+2. `cd demo`
+3. `ng serve`
+
 # Motivation
 
 I did not want to clutter my component or code with `timeouts` or `then` to determine if Monaco has loaded! I also wanna utilize `ReactiveJS` when dealing with these kind of stuff.
