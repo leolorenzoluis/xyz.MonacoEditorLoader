@@ -1,4 +1,6 @@
 # 🎉🎉🎉 Angular Monaco Editor Loader 🎉🎉🎉
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/leolorenzoluis/xyz.MonacoEditorLoader.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/badge/awesome-∞-brightgreen.svg)](https://www.npmjs.com/package/@abc.xyz/angular-monaco-editor-loader)
 [![Build Status](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader.svg?branch=master)](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader)
 
