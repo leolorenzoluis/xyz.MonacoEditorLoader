@@ -6,6 +6,50 @@ An easy to use Monaco Editor Loader Service for Angular 2 and 4! Just add `*load
 
 ```
 <div *loadMonacoEditor id="container"></div> 
+
+```
+
+With custom monaco-editor path
+```
+<div *loadMonacoEditor="'libs/monaco-editor/vs'" id="container"></div> 
+
+```
+
+# Prerequisites
+
+- Make sure that you are serving `Monaco Editor` in `/assets/monaco-editor/vs`
+## Using webpack
+- If you are using `Webpack` do the following:
+```
+plugins: [
+     new CopyWebpackPlugin([
+         {
+             from: 'node_modules/monaco-editor/min/vs',
+             to: './src/assets/monaco',
+         }
+     ]),
+ ],
+ ```
+ ## Using Angular CLI
+ - Modify `.angular-cli.json` to the following:
+ ```
+ "assets": [
+        {
+          "glob": "**/*",
+          "input": "../node_modules/monaco-editor/min/",
+          "output": "./assets/monaco-editor/"
+        },
+        {
+          "glob": "**/*",
+          "input": "../node_modules/monaco-editor/min-maps/",
+          "output": "./assets/min-maps/"
+        },
+        {
+          "glob": "favicon.ico",
+          "input": "./",
+          "output": "./"
+        }
+      ]
 ```
 
 # Usage
