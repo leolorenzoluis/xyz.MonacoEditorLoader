@@ -1,16 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MonacoEditorLoaderModule, MonacoEditorLoaderService } from '@abc.xyz/angular-monaco-editor-loader';
 
 import { AppComponent } from './app.component';
+import { MonacoEditorComponent } from './monaco-editor/monaco-editor.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MonacoEditorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MonacoEditorLoaderModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

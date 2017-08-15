@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An awesome angular 2/4 monaco editor loader.",
   "main": "bundles/xyz-dropdown-treeview.umd.js",
   "module": "index.js",
@@ -12,6 +12,7 @@
   "keywords": [
     "monaco",
     "monaco-editor",
+    "editor",
     "angular",
     "angular2",
     "angular4"
