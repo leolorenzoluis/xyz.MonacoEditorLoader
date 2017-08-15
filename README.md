@@ -2,6 +2,13 @@
 [![npm](https://img.shields.io/badge/awesome-∞-brightgreen.svg)](https://www.npmjs.com/package/@abc.xyz/angular-monaco-editor-loader)
 [![Build Status](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader.svg?branch=master)](https://travis-ci.org/leolorenzoluis/xyz.MonacoEditorLoader)
 
+Easy to install with the following command:
+ 
+```
+npm i @abc.xyz/angular-monaco-editor-loader
+```
+
+
 An easy to use Monaco Editor Loader Service for Angular 2 and 4! Just add `*loadMonacoEditor` in your HTML Element, and you don't have to worry about timing issues!
 
 ```
@@ -66,12 +73,6 @@ plugins: [
 ```
 
 # Usage
-
-Easy to install with the following command:
- 
-```
-npm i @abc.xyz/angular-monaco-editor-loader
-```
 
 In your component's module or app module. Import the following:
 
