@@ -18,6 +18,19 @@ With custom monaco-editor path
 # Prerequisites
 
 - Make sure that you are serving `Monaco Editor` in `/assets/monaco-editor/vs`
+- If you are using straight `app.component` then **DO NOT USE the directive**. Instead use the following code in `app.component.ts`
+```
+  constructor(private monaco: MonacoEditorLoaderService) {
+
+  }
+
+  this.monaco.isMonacoLoaded.subscribe(value => {
+      if (value) {
+        // Initialize monaco...
+      }
+    })
+```
+- If you are creating a component on top of monaco, then just use the directive `*loadMonacoEditor` inside your component's HTML
 ## Using webpack
 - If you are using `Webpack` do the following:
 ```
