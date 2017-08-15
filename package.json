@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An awesome angular 2/4 monaco editor loader.",
   "main": "bundles/xyz-dropdown-treeview.umd.js",
   "module": "index.js",
@@ -45,6 +45,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "tslint": "~5.3.2",
-    "typescript": "~2.3.3"
+    "typescript": "~2.3.3",
+    "webpack": "^3.5.4"
   }
 }

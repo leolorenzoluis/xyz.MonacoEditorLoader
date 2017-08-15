@@ -29,7 +29,7 @@ module.exports = {
         extensions: ['.ts', '.js']
     },
 
-    entry: helpers.root('./lib/index.ts'),
+    entry: helpers.root('./index.ts'),
 
     output: {
         path: helpers.root(outputDirectory),
