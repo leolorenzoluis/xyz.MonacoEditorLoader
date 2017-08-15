@@ -24,7 +24,7 @@
     },
     "exclude": [
         "node_modules",
-        "sample",
+        "demo",
         "bundles",
         "src/**/*.spec.ts",
         "src/**/*.e2e.ts"
