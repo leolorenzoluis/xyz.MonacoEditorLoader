@@ -21,7 +21,8 @@
     "editor",
     "angular",
     "angular2",
-    "angular4"
+    "angular4",
+    "angular5"
   ],
   "bugs": {
     "url": "https://github.com/leolorenzoluis/xyz.MonacoEditorLoader/issues"
