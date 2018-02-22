@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "An awesome angular 2/4 monaco editor loader.",
   "main": "bundles/xyz-dropdown-treeview.umd.js",
   "module": "index.js",
@@ -26,16 +26,23 @@
     "url": "git+https://github.com/leolorenzoluis/xyz.MonacoEditorLoader"
   },
   "dependencies": {
-    "@angular/core": "^4.0.0",
-    "rxjs": "^5.4.1",
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.0",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/platform-server": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
     "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~8.0.22",
     "awesome-typescript-loader": "^3.2.2",
-    "codelyzer": "~4.0.0",
+    "codelyzer": "4.1.0",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.0",
     "karma": "~1.7.0",
