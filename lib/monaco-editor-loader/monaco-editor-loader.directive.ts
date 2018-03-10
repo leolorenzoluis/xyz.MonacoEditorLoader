@@ -3,7 +3,7 @@ import { MonacoEditorLoaderService } from './monaco-editor-loader.service';
 
 @Directive({ selector: '[loadMonacoEditor]' })
 export class MonacoEditorLoaderDirective {
-    @Input() set loadMonacoEditor(value) {
+    @Input() set loadMonacoEditor(value: any) {
         this.monacoEditorLoaderService.monacoPath = value;
     }
 
