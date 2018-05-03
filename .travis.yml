@@ -8,6 +8,7 @@ cache:
 
 node_js:
   - '6.9.1'
+  - '10'
 
 install:
   - npm install
