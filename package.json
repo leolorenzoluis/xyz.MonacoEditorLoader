@@ -47,9 +47,8 @@
     "@angular/compiler-cli": "^5.0.0",
     "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "~2.0.2",
-    "@types/node": "~8.0.22",
     "awesome-typescript-loader": "^4.0.0",
-    "@types/node": "~8.5.0",
+    "@types/node": "~9.6.0",
     "codelyzer": "4.1.0",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.0",
@@ -60,7 +59,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "tslint": "~5.9.0",
-    "ng-packagr": "^2.1.0",
+    "ng-packagr": "^3.0.0",
     "typescript": "~2.6.1",
     "webpack": "^4.0.0"
   }
