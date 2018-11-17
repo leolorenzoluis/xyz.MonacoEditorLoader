@@ -45,7 +45,7 @@
     "@angular/platform-server": "^6.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
-    "@types/jasmine": "~2.8.0",
+    "@types/jasmine": "~3.0.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~10.5.0",
     "awesome-typescript-loader": "^3.2.2",
