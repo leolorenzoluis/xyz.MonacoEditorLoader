@@ -61,6 +61,6 @@
     "tslint": "~5.9.0",
     "ng-packagr": "^5.0.1",
     "typescript": "~2.6.1",
-    "webpack": "^4.0.0"
+    "webpack": "^4.35.1"
   }
 }
