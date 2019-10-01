@@ -46,7 +46,7 @@
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
     "@types/jasmine": "~3.0.0",
-    "@types/jasminewd2": "~2.0.2",
+    "@types/jasminewd2": "~2.0.8",
     "@types/node": "~12.7.0",
     "awesome-typescript-loader": "^3.2.2",
     "jasmine-core": "~3.4.0",
