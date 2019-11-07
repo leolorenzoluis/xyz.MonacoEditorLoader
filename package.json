@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "5.0.0",
+  "version": "8.0.0",
   "description": "An awesome angular 2/4 monaco editor loader.",
   "ngPackage": {
     "lib": {
@@ -33,9 +33,9 @@
     "url": "git+https://github.com/leolorenzoluis/xyz.MonacoEditorLoader"
   },
   "dependencies": {
-    "@angular/core": "^5.0.0",
-    "rxjs": "^5.5.0",
-    "zone.js": "^0.8.14"
+    "@angular/core": "^8.0.0",
+    "rxjs": "^6.5.3",
+    "zone.js": "^0.10.2"
   },
   "devDependencies": {
     "@angular/animations": "^5.0.0",
