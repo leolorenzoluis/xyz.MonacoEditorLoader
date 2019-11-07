@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MonacoEditorLoaderModule, MonacoEditorLoaderService } from '@abc.xyz/angular-monaco-editor-loader';
+import { MonacoEditorLoaderModule } from '@abc.xyz/angular-monaco-editor-loader';
 
 import { AppComponent } from './app.component';
 import { MonacoEditorComponent } from './monaco-editor/monaco-editor.component';

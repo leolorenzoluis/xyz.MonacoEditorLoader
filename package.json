@@ -1,16 +1,13 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "8.0.0",
-  "description": "An awesome angular 2/4 monaco editor loader.",
+  "version": "8.0.9",
+  "description": "An awesome Angular monaco editor loader.",
   "ngPackage": {
     "lib": {
       "entryFile": "public_api.ts"
     }
   },
-  "main": "dist/bundles/xyz-dropdown-treeview.umd.js",
-  "es2015": "dist/esm2015/abc.xyz-angular-monaco-editor-loader.js",
-  "module": "dist/esm5/abc.xyz-angular-monaco-editor-loader.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "abc xyz",
   "scripts": {
     "build": "ng-packagr -p package.json"
@@ -22,7 +19,8 @@
     "angular",
     "angular2",
     "angular4",
-    "angular5"
+    "angular5",
+    "angular8"
   ],
   "bugs": {
     "url": "https://github.com/leolorenzoluis/xyz.MonacoEditorLoader/issues"
@@ -32,35 +30,34 @@
     "type": "git",
     "url": "git+https://github.com/leolorenzoluis/xyz.MonacoEditorLoader"
   },
-  "dependencies": {
-    "@angular/core": "^8.0.0",
-    "rxjs": "^6.5.3",
-    "zone.js": "^0.10.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@angular/animations": "^5.0.0",
-    "@angular/common": "^5.0.0",
-    "@angular/platform-browser": "^5.0.0",
-    "@angular/platform-browser-dynamic": "^5.0.0",
-    "@angular/platform-server": "^6.0.0",
-    "@angular/compiler": "^5.0.0",
-    "@angular/compiler-cli": "^5.0.0",
+    "@angular/animations": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/common": "^8.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/compiler-cli": "^8.0.0",
+    "@angular/platform-browser": "^8.0.0",
+    "@angular/platform-browser-dynamic": "^8.0.0",
+    "@angular/platform-server": "^8.0.0",
     "@types/jasmine": "~3.4.6",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~12.12.0",
     "awesome-typescript-loader": "^3.2.2",
+    "codelyzer": "^5.2.0",
     "jasmine-core": "~3.5.0",
-    "codelyzer": "4.1.0",
     "jasmine-spec-reporter": "~4.2.0",
     "karma": "~4.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-cli": "~2.0.0",
     "karma-coverage-istanbul-reporter": "^2.0.0",
-    "karma-jasmine-html-reporter": "^1.0.0",
     "karma-jasmine": "~2.0.0",
-    "tslint": "~5.9.0",
+    "karma-jasmine-html-reporter": "^1.0.0",
     "ng-packagr": "^5.0.1",
-    "typescript": "~2.6.1",
-    "webpack": "^4.0.0"
+    "rxjs": "^6.0.0",
+    "tslint": "~5.9.0",
+    "typescript": "3.5.3",
+    "webpack": "^4.0.0",
+    "zone.js": "^0.9.1"
   }
 }

@@ -16,5 +16,4 @@ tsconfig.json
 tsconfig-ngc.json
 tslint.json
 .vscode/*
-lib
 index.ts
