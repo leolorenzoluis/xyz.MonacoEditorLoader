@@ -12,7 +12,7 @@ npm i @abc.xyz/angular-monaco-editor-loader
 
 
 An easy to use Monaco Editor Loader Service for Angular! Just add `*loadMonacoEditor` in your HTML Element, and you don't have to worry about timing issues!
-
+If you are looking for Angular 5-7 please see the following release https://github.com/leolorenzoluis/xyz.MonacoEditorLoader/releases/tag/v5.0.0
 If you are looking for Angular < 4 please see the following branch https://github.com/leolorenzoluis/xyz.MonacoEditorLoader/tree/angular-4
 
 ```
