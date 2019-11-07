@@ -1,5 +1,6 @@
 import { Injectable, NgZone } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+// tslint:disable-next-line:import-blacklist
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class MonacoEditorLoaderService {
@@ -12,7 +13,7 @@ export class MonacoEditorLoaderService {
     }
 
     constructor(ngZone: NgZone) {
-        var onGotAmdLoader = () => {
+        const onGotAmdLoader = () => {
             // Load monaco
             console.log(this._monacoPath);
             (<any>window).require.config({ paths: { 'vs': this._monacoPath } });
@@ -23,7 +24,7 @@ export class MonacoEditorLoaderService {
 
         // Load AMD loader if necessary
         if (!(<any>window).require) {
-            var loaderScript = document.createElement('script');
+            const loaderScript = document.createElement('script');
             loaderScript.type = 'text/javascript';
             loaderScript.src = `${this._monacoPath}/loader.js`;
             loaderScript.addEventListener('load', onGotAmdLoader);

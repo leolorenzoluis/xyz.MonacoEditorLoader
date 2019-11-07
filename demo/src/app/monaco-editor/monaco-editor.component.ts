@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'monaco-editor',
   templateUrl: './monaco-editor.component.html',
   styleUrls: ['./monaco-editor.component.css']
@@ -31,19 +32,19 @@ export class MonacoEditorComponent implements OnInit {
       '}',
     ].join('\n'), 'filename/facts.d.ts');
 
-    var jsCode = [
+    const jsCode = [
       '"use strict";',
       '',
-      "class Chuck {",
-      "    greet() {",
-      "        return Facts.next();",
-      "    }",
-      "}"
+      'class Chuck {',
+      '    greet() {',
+      '        return Facts.next();',
+      '    }',
+      '}'
     ].join('\n');
 
-    monaco.editor.create(document.getElementById("container"), {
+    monaco.editor.create(document.getElementById('container'), {
       value: jsCode,
-      language: "javascript"
+      language: 'javascript'
     });
   }
 

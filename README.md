@@ -55,7 +55,7 @@ plugins: [
  ],
  ```
  ## Using Angular CLI
- - Modify `.angular-cli.json` to the following:
+ - Modify `angular.json` to the following:
  ```
  "assets": [
         {
