@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "8.0.10",
+  "version": "8.0.13",
   "description": "An awesome Angular monaco editor loader.",
   "ngPackage": {
     "lib": {
@@ -10,7 +10,8 @@
   "license": "Apache-2.0",
   "author": "abc xyz",
   "scripts": {
-    "build": "ng-packagr -p package.json"
+    "build": "ng-packagr -p package.json",
+    "prepublish": "rm -rf dist && npm run build && cd dist"
   },
   "keywords": [
     "monaco",
