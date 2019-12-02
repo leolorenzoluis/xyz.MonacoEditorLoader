@@ -9,28 +9,27 @@ export class MonacoEditorLoaderService {
     set monacoPath(value: any) {
         if (value) {
             this._monacoPath = value;
+            this.load();
         }
     }
 
-    constructor(ngZone: NgZone) {
-        const onGotAmdLoader = () => {
-            // Load monaco
-            console.log(this._monacoPath);
-            (<any>window).require.config({ paths: { 'vs': this._monacoPath } });
-            (<any>window).require(['vs/editor/editor.main'], () => {
-                ngZone.run(() => this.isMonacoLoaded.next(true));
-            });
-        };
-
+    constructor(private ngZone: NgZone) {
         // Load AMD loader if necessary
         if (!(<any>window).require) {
             const loaderScript = document.createElement('script');
             loaderScript.type = 'text/javascript';
             loaderScript.src = `${this._monacoPath}/loader.js`;
-            loaderScript.addEventListener('load', onGotAmdLoader);
+            loaderScript.addEventListener('load', this.load);
             document.body.appendChild(loaderScript);
-        } else {
-            onGotAmdLoader();
         }
     }
+
+    load = () => {
+        // Load monaco
+        console.log(this._monacoPath);
+        (<any>window).require.config({ paths: { 'vs': this._monacoPath } });
+        (<any>window).require(['vs/editor/editor.main'], () => {
+            this.ngZone.run(() => this.isMonacoLoaded.next(true));
+        });
+    };
 }

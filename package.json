@@ -1,6 +1,6 @@
 {
   "name": "@abc.xyz/angular-monaco-editor-loader",
-  "version": "8.0.9",
+  "version": "8.0.10",
   "description": "An awesome Angular monaco editor loader.",
   "ngPackage": {
     "lib": {
