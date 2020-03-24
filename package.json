@@ -58,7 +58,7 @@
     "rxjs": "^6.0.0",
     "tslint": "~5.9.0",
     "typescript": "3.5.3",
-    "webpack": "^4.0.0",
+    "webpack": "^4.42.1",
     "zone.js": "^0.9.1"
   }
 }
