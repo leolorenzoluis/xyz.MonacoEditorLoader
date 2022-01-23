@@ -200,3 +200,7 @@ Sometimes I see hacks from [Covalent](https://github.com/Teradata/covalent-code-
         }
 ```
 
+For Angular refer to samples/angular13 angular.json and custom-webpack.js monaco webpack plugin to enable web workers
+
+See more
+https://www.digitalocean.com/community/tutorials/angular-custom-webpack-config
