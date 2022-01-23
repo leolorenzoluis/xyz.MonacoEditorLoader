@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@abc.xyz/angular-monaco-editor-loader": "8.0.9",
+    "@abc.xyz/angular-monaco-editor-loader": "8.0.13",
     "@angular/animations": "^8.0.0",
     "@angular/common": "^8.0.0",
     "@angular/compiler": "^8.0.0",
