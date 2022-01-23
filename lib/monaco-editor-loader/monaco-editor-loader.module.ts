@@ -1,22 +1,20 @@
-import { NgModule, NgZone } from '@angular/core';
-import { MonacoEditorLoaderService } from './monaco-editor-loader.service';
-import { MonacoEditorLoaderDirective } from './monaco-editor-loader.directive';
+import { NgModule, NgZone } from "@angular/core";
+import { MonacoEditorLoaderService } from "./monaco-editor-loader.service";
+import { MonacoEditorLoaderDirective } from "./monaco-editor-loader.directive";
 
-export function factory(ngZone: NgZone) {
+const monacoServiceFactory = (ngZone: NgZone) => {
   return new MonacoEditorLoaderService(ngZone);
 };
 
 @NgModule({
-  declarations: [
-    MonacoEditorLoaderDirective
-  ],
+  declarations: [MonacoEditorLoaderDirective],
   exports: [MonacoEditorLoaderDirective],
   providers: [
     {
       provide: MonacoEditorLoaderService,
       deps: [NgZone],
-      useFactory: factory
-    }
-  ]
+      useFactory: monacoServiceFactory,
+    },
+  ],
 })
-export class MonacoEditorLoaderModule { }
+export class MonacoEditorLoaderModule {}

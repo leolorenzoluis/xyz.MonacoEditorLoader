@@ -6,14 +6,8 @@ import { AppComponent } from './app.component';
 import { MonacoEditorComponent } from './monaco-editor/monaco-editor.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MonacoEditorComponent
-  ],
-  imports: [
-    BrowserModule,
-    MonacoEditorLoaderModule
-  ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, MonacoEditorComponent],
+  imports: [BrowserModule, MonacoEditorLoaderModule],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
